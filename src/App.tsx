@@ -204,7 +204,7 @@ const Hero = () => {
           transition={{ delay: 0.7 }}
           className="text-white font-serif text-5xl md:text-7xl font-extralight leading-[1.1] mb-6"
         >
-          Naturliche Schonheit, <br /> <span className="italic">perfekt betont.</span>
+          Natürliche Schönheit, <br /> <span className="italic">perfekt betont.</span>
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}

@@ -7,9 +7,9 @@ export const config = {
   // ============================================
   business: {
     name: "Beauty by Erona",
-    tagline: "Deine Schonheit. Unsere Leidenschaft.",
-    motto: "Naturliche Schonheit, perfekt betont.",
-    description: "Dein professionelles Beauty-Studio in Heilbronn. Wimpernverlangerung, Microblading, Lash- & Browlifting und Permanent Make-up - von zertifizierten Beauty-Expertinnen.",
+    tagline: "Deine Schönheit. Unsere Leidenschaft.",
+    motto: "Natürliche Schönheit, perfekt betont.",
+    description: "Dein professionelles Beauty-Studio in Heilbronn. Wimpernverlängerung, Microblading, Lash- & Browlifting und Permanent Make-up - von zertifizierten Beauty-Expertinnen.",
     foundingYear: 2019,
     yearsExperience: 6,
     yearsInCenter: 5,
@@ -26,7 +26,7 @@ export const config = {
     whatsapp: "+49 157 36742327",
     whatsappLink: "https://wa.me/4915736742327",
     address: {
-      street: "Hauffstrasse 48",
+      street: "Hauffstraße 48",
       city: "Heilbronn",
       district: "Heilbronn",
       zip: "74074",
@@ -79,9 +79,9 @@ export const config = {
     fullName: "Erona & Merita",
     image: "/beauty/face.jpg",
     bio: [
-      "Willkommen bei Beauty by Erona! Mit jahrelanger Erfahrung und viel Feingefuhl sorgen wir fur Ergebnisse, die uberzeugen - individuell, hochwertig und modern.",
-      "Unser Team besteht aus zertifizierten Beauty-Expertinnen, die mit hochsten Hygiene- und Qualitatsstandards arbeiten.",
-      "Im Mittelpunkt steht eine prazise, typgerechte Umsetzung mit Fokus auf Qualitat und Zufriedenheit. Wir begleiten dich auf deinem Weg zu naturlicher Schonheit.",
+      "Willkommen bei Beauty by Erona! Mit jahrelanger Erfahrung und viel Feingefühl sorgen wir für Ergebnisse, die überzeugen - individuell, hochwertig und modern.",
+      "Unser Team besteht aus zertifizierten Beauty-Expertinnen, die mit höchsten Hygiene- und Qualitätsstandards arbeiten.",
+      "Im Mittelpunkt steht eine präzise, typgerechte Umsetzung mit Fokus auf Qualität und Zufriedenheit. Wir begleiten dich auf deinem Weg zu natürlicher Schönheit.",
     ],
     certifications: [
       { label: "Zertifizierte Lash Artistin", icon: "award" },
@@ -98,14 +98,14 @@ export const config = {
     {
       name: "Laura M.",
       rating: 5,
-      text: "Die besten Wimpern die ich je hatte! Erona hat ein unglaubliches Gespuer fuer den perfekten Look. Komme immer wieder gerne!",
-      service: "Wimpernverlaengerung",
+      text: "Die besten Wimpern die ich je hatte! Erona hat ein unglaubliches Gespür für den perfekten Look. Komme immer wieder gerne!",
+      service: "Wimpernverlängerung",
       date: "vor 1 Woche",
     },
     {
       name: "Sarah K.",
       rating: 5,
-      text: "Mein Microblading sieht so natuerlich aus! Ich wache jeden Morgen mit perfekten Augenbrauen auf. Absolute Empfehlung!",
+      text: "Mein Microblading sieht so natürlich aus! Ich wache jeden Morgen mit perfekten Augenbrauen auf. Absolute Empfehlung!",
       service: "Microblading",
       date: "vor 2 Wochen",
     },
@@ -119,7 +119,7 @@ export const config = {
     {
       name: "Jessica H.",
       rating: 5,
-      text: "Ich liebe mein neues Permanent Make-up! Erona und Merita sind echte Kuenstlerinnen. Die Beratung war super ausfuehrlich.",
+      text: "Ich liebe mein neues Permanent Make-up! Erona und Merita sind echte Künstlerinnen. Die Beratung war super ausführlich.",
       service: "Permanent Make-up",
       date: "vor 1 Monat",
     },
@@ -130,109 +130,127 @@ export const config = {
   // ============================================
   services: [
     {
-      title: "Wimpernverlaengerung",
-      description: "Traumhaft volle Wimpern fuer einen verfuehrerischen Blick. Classic, Volume oder Mega Volume - ganz nach deinem Wunsch.",
-      price: "ab 89 Euro",
+      title: "Wimpernverlängerung",
+      description: "Traumhaft volle Wimpern für einen verführerischen Blick. Classic, Volume oder Mega Volume - ganz nach deinem Wunsch.",
+      price: "ab 89 €",
       image: "/beauty/wimpern.png",
-      benefits: ["Langanhaltend", "Natuerlich"],
+      benefits: ["Langanhaltend", "Natürlich"],
     },
     {
       title: "Microblading",
-      description: "Perfekte Augenbrauen mit der Haerchentechnik. Natuerlich aussehende, volle Brauen die bis zu 2 Jahre halten.",
-      price: "ab 249 Euro",
+      description: "Perfekte Augenbrauen mit der Härchentechnik. Natürlich aussehende, volle Brauen die bis zu 2 Jahre halten.",
+      price: "ab 249 €",
       image: "/beauty/eyebrow-after.png",
-      benefits: ["2 Jahre Halt", "Natuerlich"],
+      benefits: ["2 Jahre Halt", "Natürlich"],
     },
     {
       title: "Lash Lifting",
-      description: "Deine natuerlichen Wimpern - nur besser! Dauerwelle und Faerbung fuer einen wachen, offenen Blick.",
-      price: "ab 49 Euro",
+      description: "Deine natürlichen Wimpern - nur besser! Dauerwelle und Färbung für einen wachen, offenen Blick.",
+      price: "ab 49 €",
       image: "/beauty/wimpern (2).webp",
-      benefits: ["6-8 Wochen", "Natuerlich"],
+      benefits: ["6-8 Wochen", "Natürlich"],
     },
     {
       title: "Brow Lifting",
-      description: "Perfekt geformte, volle Augenbrauen ohne taegliches Styling. Lamination und Faerbung in einem.",
-      price: "ab 45 Euro",
+      description: "Perfekt geformte, volle Augenbrauen ohne tägliches Styling. Lamination und Färbung in einem.",
+      price: "ab 45 €",
       image: "/beauty/face2.jpg",
       benefits: ["6-8 Wochen", "Pflegeleicht"],
     },
     {
       title: "Permanent Make-up",
-      description: "Perfekte Lippen, Augenbrauen oder Lidstrich - jeden Tag. Hochwertige Pigmentierung fuer langanhaltende Schoenheit.",
-      price: "ab 199 Euro",
+      description: "Perfekte Lippen, Augenbrauen oder Lidstrich - jeden Tag. Hochwertige Pigmentierung für langanhaltende Schönheit.",
+      price: "ab 199 €",
       image: "/beauty/face.jpg",
       benefits: ["Langanhaltend", "Wasserfest"],
     },
     {
-      title: "Wimpern Auffuellung",
-      description: "Regelmaessige Auffuellung fuer deine Wimpernverlaengerung. Haelt deine Wimpern perfekt in Form.",
-      price: "ab 49 Euro",
+      title: "Wimpern Auffüllung",
+      description: "Regelmäßige Auffüllung für deine Wimpernverlängerung. Hält deine Wimpern perfekt in Form.",
+      price: "ab 49 €",
       image: "/beauty/Generated Image January 05, 2026 - 2_18PM (2).png",
       benefits: ["Pflege", "Formerhalt"],
     },
-    {
-      title: "Schulungen",
-      description: "Starte dein eigenes Beauty-Business! Zertifizierte Schulungen fuer Wimpern, Microblading und mehr.",
-      price: "auf Anfrage",
-      image: "/beauty/behandlung 3.png",
-      benefits: ["Zertifikat", "Praxisnah"],
-    },
-    {
-      title: "Kombi-Pakete",
-      description: "Kombiniere deine Lieblingsbehandlungen und spare! Lash & Brow Lifting oder Wimpern mit Augenbrauen-Styling.",
-      price: "ab 79 Euro",
-      image: "/beauty/Generated Image January 05, 2026 - 2_18PM.png",
-      benefits: ["Ersparnis", "Komplett-Look"],
-    },
   ],
+
+  // ============================================
+  // SCHULUNGEN (Training Section)
+  // ============================================
+  schulungen: {
+    headline: "Starte dein eigenes Beauty-Business!",
+    description: "Erfülle dir den Traum vom eigenen Beauty-Business! In unseren professionellen Schulungen lernst du alles, was du brauchst, um als Beauty-Profi erfolgreich durchzustarten – praxisnah, individuell und mit Zertifikat.",
+    subtext: "Ob Anfängerin oder Fortgeschrittene – wir begleiten dich auf deinem Weg in die Selbstständigkeit und zeigen dir, wie du mit deinem Talent Kunden begeisterst.",
+    courses: [
+      {
+        title: "Wimpernverlängerung",
+        description: "Lerne die Kunst der perfekten Wimpernverlängerung. Von Classic bis Mega Volume - alle Techniken inklusive.",
+        duration: "2-3 Tage",
+        includes: ["Starter-Kit", "Zertifikat", "Modelle"],
+        image: "/beauty/wimpern.png",
+      },
+      {
+        title: "Microblading",
+        description: "Meistere die Härchentechnik für natürlich aussehende Augenbrauen. Theorie und Praxis an echten Modellen.",
+        duration: "2 Tage",
+        includes: ["Material", "Zertifikat", "Nachbetreuung"],
+        image: "/beauty/eyebrow-after.png",
+      },
+      {
+        title: "Permanent Make-up",
+        description: "Professionelle Pigmentierung für Lippen, Augenbrauen und Lidstrich. Umfassende Ausbildung mit Praxis.",
+        duration: "3-5 Tage",
+        includes: ["Equipment", "Zertifikat", "Support"],
+        image: "/beauty/face.jpg",
+      },
+      {
+        title: "Lash & Brow Lifting",
+        description: "Der perfekte Einstieg in die Beauty-Branche. Schnell erlernbar mit sofort sichtbaren Ergebnissen.",
+        duration: "1 Tag",
+        includes: ["Starter-Set", "Zertifikat", "Übungsmaterial"],
+        image: "/beauty/face2.jpg",
+      },
+    ],
+    cta: {
+      text: "Jetzt Schulung anfragen",
+      link: "https://wa.me/4915736742327?text=Hi,%20ich%20interessiere%20mich%20für%20eine%20Schulung.%20Kannst%20du%20mir%20mehr%20Infos%20geben?",
+    },
+  },
 
   // ============================================
   // PRICING MENU
   // ============================================
   pricing: [
     {
-      category: "Wimpernverlaengerung",
+      category: "Wimpernverlängerung",
       items: [
-        { name: "Classic Wimpern (90 Min)", price: "89 Euro" },
-        { name: "Volume Wimpern 2D-3D (120 Min)", price: "109 Euro" },
-        { name: "Mega Volume 4D-6D (150 Min)", price: "129 Euro" },
-        { name: "Auffuellung Classic (60 Min)", price: "49 Euro" },
-        { name: "Auffuellung Volume (75 Min)", price: "59 Euro" },
-        { name: "Wimpern Entfernung", price: "15 Euro" },
+        { name: "Classic Wimpern (90 Min)", price: "89 €" },
+        { name: "Volume Wimpern 2D-3D (120 Min)", price: "109 €" },
+        { name: "Mega Volume 4D-6D (150 Min)", price: "129 €" },
+        { name: "Auffüllung Classic (60 Min)", price: "49 €" },
+        { name: "Auffüllung Volume (75 Min)", price: "59 €" },
+        { name: "Wimpern Entfernung", price: "15 €" },
       ],
     },
     {
       category: "Microblading & PMU",
       items: [
-        { name: "Microblading Augenbrauen", price: "249 Euro" },
-        { name: "Powder Brows / Ombre", price: "279 Euro" },
-        { name: "Kombi Brows", price: "299 Euro" },
-        { name: "Permanent Lidstrich", price: "199 Euro" },
-        { name: "Permanent Lippen", price: "349 Euro" },
-        { name: "Nacharbeit (4-6 Wochen)", price: "49 Euro" },
+        { name: "Microblading Augenbrauen", price: "249 €" },
+        { name: "Powder Brows / Ombré", price: "279 €" },
+        { name: "Kombi Brows", price: "299 €" },
+        { name: "Permanent Lidstrich", price: "199 €" },
+        { name: "Permanent Lippen", price: "349 €" },
+        { name: "Nacharbeit (4-6 Wochen)", price: "49 €" },
       ],
     },
     {
       category: "Lash & Brow Lifting",
       items: [
-        { name: "Lash Lifting inkl. Faerbung", price: "49 Euro" },
-        { name: "Brow Lifting inkl. Faerbung", price: "45 Euro" },
-        { name: "Lash & Brow Lifting Kombi", price: "79 Euro" },
-        { name: "Wimpern Faerbung", price: "15 Euro" },
-        { name: "Augenbrauen Faerbung", price: "12 Euro" },
-        { name: "Augenbrauen Zupfen", price: "10 Euro" },
-      ],
-    },
-    {
-      category: "Schulungen",
-      items: [
-        { name: "Wimpernverlaengerung Basis", price: "auf Anfrage" },
-        { name: "Volume Technik Schulung", price: "auf Anfrage" },
-        { name: "Microblading Schulung", price: "auf Anfrage" },
-        { name: "Permanent Make-up Schulung", price: "auf Anfrage" },
-        { name: "Lash & Brow Lifting Kurs", price: "auf Anfrage" },
-        { name: "Auffrischungskurs", price: "auf Anfrage" },
+        { name: "Lash Lifting inkl. Färbung", price: "49 €" },
+        { name: "Brow Lifting inkl. Färbung", price: "45 €" },
+        { name: "Lash & Brow Lifting Kombi", price: "79 €" },
+        { name: "Wimpern Färbung", price: "15 €" },
+        { name: "Augenbrauen Färbung", price: "12 €" },
+        { name: "Augenbrauen Zupfen", price: "10 €" },
       ],
     },
   ],
@@ -271,8 +289,8 @@ export const config = {
   // HYGIENE SECTION
   // ============================================
   hygiene: {
-    headline: "Qualitaet, Hygiene & Expertise",
-    description: "Bei Beauty by Erona setzen wir auf hoechste Hygienestandards und professionelle Qualitaet. Unser Team ist zertifiziert und arbeitet mit modernsten Materialien und Techniken.",
+    headline: "Qualität, Hygiene & Expertise",
+    description: "Bei Beauty by Erona setzen wir auf höchste Hygienestandards und professionelle Qualität. Unser Team ist zertifiziert und arbeitet mit modernsten Materialien und Techniken.",
     features: [
       {
         icon: "shield",
@@ -287,12 +305,12 @@ export const config = {
       {
         icon: "award",
         title: "800+ Kundinnen",
-        description: "Zufriedene Kundinnen vertrauen auf unsere Expertise und Praezision.",
+        description: "Zufriedene Kundinnen vertrauen auf unsere Expertise und Präzision.",
       },
       {
         icon: "check",
         title: "Sterilisierte Werkzeuge",
-        description: "Alle Instrumente werden nach jeder Kundin gruendlich sterilisiert.",
+        description: "Alle Instrumente werden nach jeder Kundin gründlich sterilisiert.",
       },
     ],
   },
