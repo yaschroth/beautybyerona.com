@@ -684,7 +684,7 @@ const Testimonials = () => {
   );
 };
 
-const HygieneSection = () => {
+
 
 const SchulungenSection = () => {
   return (
@@ -770,6 +770,7 @@ const SchulungenSection = () => {
   );
 };
 
+const HygieneSection = () => {
   const hygieneIcons = {
     shield: ShieldCheck,
     check: CheckCircle2,
