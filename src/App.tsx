@@ -16,6 +16,9 @@ import {
   ShieldCheck,
   Award,
   ExternalLink,
+  GraduationCap,
+  Users,
+  BookOpen,
 } from 'lucide-react';
 import { cn } from './lib/utils';
 import { config } from './config';
@@ -78,6 +81,7 @@ const Navbar = () => {
     { name: 'Services', href: '#services' },
     { name: 'Preisliste', href: '#pricing' },
     { name: 'Galerie', href: '#gallery' },
+    { name: 'Schulungen', href: '#schulungen' },
     { name: 'Über uns', href: '#about' },
     { name: 'Kontakt', href: '#contact' },
   ];
@@ -681,6 +685,91 @@ const Testimonials = () => {
 };
 
 const HygieneSection = () => {
+
+const SchulungenSection = () => {
+  return (
+    <section id="schulungen" className="py-32 bg-primary/10">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="text-center mb-20">
+          <span className="text-primary uppercase tracking-[0.3em] text-[10px] font-bold mb-4 block">Schulungen & Ausbildung</span>
+          <h2 className="font-serif text-5xl md:text-7xl mb-6">{config.schulungen.headline}</h2>
+          <p className="text-black/60 max-w-2xl mx-auto leading-relaxed">
+            {config.schulungen.description}
+          </p>
+          <p className="text-black/40 max-w-xl mx-auto mt-4 text-sm">
+            {config.schulungen.subtext}
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+          {config.schulungen.courses.map((course, i) => (
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: i * 0.1 }}
+              className="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
+            >
+              <div className="aspect-[16/9] overflow-hidden">
+                <img
+                  src={course.image}
+                  alt={course.title}
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                />
+              </div>
+              <div className="p-8">
+                <div className="flex items-center gap-2 mb-4">
+                  <GraduationCap size={20} className="text-primary" />
+                  <h3 className="font-serif text-2xl">{course.title}</h3>
+                </div>
+                <p className="text-black/60 mb-6 leading-relaxed">{course.description}</p>
+                
+                <div className="flex items-center gap-4 mb-6 text-sm">
+                  <div className="flex items-center gap-2 text-black/50">
+                    <Clock size={16} />
+                    <span>{course.duration}</span>
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap gap-2">
+                  {course.includes.map((item, j) => (
+                    <span
+                      key={j}
+                      className="inline-flex items-center gap-1.5 text-[10px] uppercase tracking-widest text-primary font-bold bg-primary/10 px-3 py-1.5 rounded-full"
+                    >
+                      <CheckCircle2 size={12} /> {item}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+
+        <div className="text-center bg-dark rounded-3xl p-12 md:p-16">
+          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/20 text-primary mb-6">
+            <BookOpen size={32} />
+          </div>
+          <h3 className="font-serif text-3xl md:text-4xl text-white mb-4">Bereit durchzustarten?</h3>
+          <p className="text-white/60 max-w-lg mx-auto mb-8">
+            Kontaktiere uns für mehr Informationen zu unseren Schulungen. Wir beraten dich gerne individuell!
+          </p>
+          <a
+            href={config.schulungen.cta.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3 bg-[#25D366] text-white px-10 py-5 rounded-full text-xs uppercase tracking-widest font-bold hover:brightness-110 transition-all duration-200 cursor-pointer"
+          >
+            <MessageCircle size={18} /> {config.schulungen.cta.text}
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+};
+
   const hygieneIcons = {
     shield: ShieldCheck,
     check: CheckCircle2,
@@ -893,6 +982,7 @@ export default function App() {
         <Gallery />
         <Testimonials />
         <AboutSection />
+        <SchulungenSection />
         <HygieneSection />
         <ContactSection />
       </main>
