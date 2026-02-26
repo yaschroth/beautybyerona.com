@@ -9,7 +9,7 @@ export const config = {
     name: "Beauty by Erona",
     tagline: "MASTER OF EYEBROWS",
     motto: "Microblading · Permanent Make-up · Schulungen · Wimpernverlängerung",
-    description: "Dein Kosmetikstudio in Heilbronn. Microblading, Permanent Make-up, Wimpernverlängerung mit UV System, Brow & Lash Lifting - und professionelle Schulungen.",
+    description: "Dein Kosmetikstudio in Heilbronn. Microblading, Permanent Make-up, Wimpernverlängerung mit UV System, Brow & Lash Lifting sowie professionelle Schulungen.",
     foundingYear: 2019,
     yearsExperience: 6,
     yearsInCenter: 5,
@@ -79,8 +79,8 @@ export const config = {
     fullName: "Erona & Merita",
     image: "/beauty/face.jpg",
     bio: [
-      "Willkommen bei Beauty by Erona - MASTER OF EYEBROWS! Wir sind spezialisiert auf Microblading, Permanent Make-up, Wimpernverlängerung mit UV System und Brow & Lash Lifting.",
-      "Unser Studio ist sauber, hell und wunderschön dekoriert. Wir arbeiten mit höchsten Hygiene- und Qualitätsstandards - deshalb kommen Kundinnen sogar über 150 km zu uns.",
+      "Willkommen bei Beauty by Erona, MASTER OF EYEBROWS! Wir sind spezialisiert auf Microblading, Permanent Make-up, Wimpernverlängerung mit UV System und Brow & Lash Lifting.",
+      "Unser Studio ist sauber, hell und wunderschön dekoriert. Wir arbeiten mit höchsten Hygiene- und Qualitätsstandards. Deshalb kommen Kundinnen sogar über 150 km zu uns.",
       "Neben Behandlungen bieten wir auch professionelle Schulungen an. Folge uns auf Instagram @beautybyerona und TikTok @lashesby_e.b für unsere neuesten Arbeiten!",
     ],
     certifications: [
@@ -105,7 +105,7 @@ export const config = {
     {
       name: "Google Rezension",
       rating: 5,
-      text: "Das Studio ist sehr sauber, hell, wunderschön dekoriert und riecht frisch. Es gibt auch Parkplätze. Die Schulungen sind strukturiert und informativ - absolute Empfehlung!",
+      text: "Das Studio ist sehr sauber, hell, wunderschön dekoriert und riecht frisch. Es gibt auch Parkplätze. Die Schulungen sind strukturiert und informativ. Absolute Empfehlung!",
       service: "Schulung",
       date: "Google Bewertung",
     },
@@ -131,21 +131,21 @@ export const config = {
   services: [
     {
       title: "Microblading",
-      description: "MASTER OF EYEBROWS - Perfekte Augenbrauen mit der Härchentechnik. Präzise, perfekte und saubere Arbeit für ein unfassbar schönes Endergebnis.",
+      description: "MASTER OF EYEBROWS: Perfekte Augenbrauen mit der Härchentechnik. Präzise, perfekte und saubere Arbeit für ein unfassbar schönes Endergebnis.",
       price: "auf Anfrage",
       image: "/beauty/eyebrow-after.png",
       benefits: ["1-2 Jahre Halt", "Natürlich"],
     },
     {
       title: "Wimpernverlängerung",
-      description: "Wimpernverlängerung mit UV System - traumhaft volle Wimpern für einen verführerischen Blick. Classic, Volume oder Mega Volume.",
+      description: "Wimpernverlängerung mit UV System für traumhaft volle Wimpern und einen verführerischen Blick. Classic, Volume oder Mega Volume.",
       price: "auf Anfrage",
       image: "/beauty/wimpern.png",
       benefits: ["UV System", "Langanhaltend"],
     },
     {
       title: "Permanent Make-up",
-      description: "Perfekte Lippen, Augenbrauen oder Lidstrich - jeden Tag. Hochwertige Pigmentierung für langanhaltende Schönheit.",
+      description: "Perfekte Lippen, Augenbrauen oder Lidstrich, jeden Tag. Hochwertige Pigmentierung für langanhaltende Schönheit.",
       price: "auf Anfrage",
       image: "/beauty/face.jpg",
       benefits: ["Langanhaltend", "Wasserfest"],
@@ -159,7 +159,7 @@ export const config = {
     },
     {
       title: "Lash Lifting",
-      description: "Deine natürlichen Wimpern - nur besser! Dauerwelle und Färbung für einen wachen, offenen Blick.",
+      description: "Deine natürlichen Wimpern, nur besser! Dauerwelle und Färbung für einen wachen, offenen Blick.",
       price: "auf Anfrage",
       image: "/beauty/wimpern (2).webp",
       benefits: ["6-8 Wochen", "Natürlich"],
@@ -178,12 +178,12 @@ export const config = {
   // ============================================
   schulungen: {
     headline: "Professionelle Beauty-Schulungen",
-    description: "Unsere Schulungen sind strukturiert und informativ - das bestätigen unsere Teilnehmerinnen! Lerne von den Master of Eyebrows und starte dein eigenes Beauty-Business.",
+    description: "Unsere Schulungen sind strukturiert und informativ, das bestätigen unsere Teilnehmerinnen! Lerne von den Master of Eyebrows und starte dein eigenes Beauty-Business.",
     subtext: "Ob Anfängerin oder Fortgeschrittene – wir begleiten dich auf deinem Weg in die Selbstständigkeit. Praxisnah, individuell und mit Zertifikat.",
     courses: [
       {
         title: "Wimpernverlängerung",
-        description: "Lerne die Kunst der perfekten Wimpernverlängerung. Von Classic bis Mega Volume - alle Techniken inklusive.",
+        description: "Lerne die Kunst der perfekten Wimpernverlängerung. Von Classic bis Mega Volume, alle Techniken inklusive.",
         duration: "2-3 Tage",
         includes: ["Starter-Kit", "Zertifikat", "Modelle"],
         image: "/beauty/wimpern.png",
@@ -257,7 +257,7 @@ export const config = {
   // ============================================
   images: {
     hero: "/beauty/face.jpg",
-    heroAlt: "Beauty by Erona - Professionelles Beauty-Studio Heilbronn",
+    heroAlt: "Beauty by Erona | Professionelles Beauty-Studio Heilbronn",
     hygiene: "/beauty/behandlung 3.png",
     gallery: [
       { url: "/beauty/wimpern.png", category: "Wimpern" },
@@ -287,7 +287,7 @@ export const config = {
   // ============================================
   hygiene: {
     headline: "Sauber, hell & wunderschön",
-    description: "Unser Studio ist sehr sauber, hell, wunderschön dekoriert und riecht frisch. Wir bieten exzellenten Kundenservice in einer unterstützenden Atmosphäre - deshalb kommen Kundinnen sogar über 150 km zu uns.",
+    description: "Unser Studio ist sehr sauber, hell, wunderschön dekoriert und riecht frisch. Wir bieten exzellenten Kundenservice in einer unterstützenden Atmosphäre. Deshalb kommen Kundinnen sogar über 150 km zu uns.",
     features: [
       {
         icon: "shield",
@@ -302,7 +302,7 @@ export const config = {
       {
         icon: "award",
         title: "Kundinnen aus ganz Deutschland",
-        description: "Manche Kundinnen fahren über 150 km zu uns - es lohnt sich jedes Mal!",
+        description: "Manche Kundinnen fahren über 150 km zu uns. Es lohnt sich jedes Mal!",
       },
       {
         icon: "check",

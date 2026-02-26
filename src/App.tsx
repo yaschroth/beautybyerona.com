@@ -916,7 +916,7 @@ const Footer = () => {
         <div className="space-y-8">
           <h4 className="text-[10px] uppercase tracking-[0.3em] font-bold text-black/40">Öffnungszeiten</h4>
           <ul className="space-y-4 text-sm font-medium">
-            <li className="flex justify-between"><span>Montag - Freitag</span> <span>{config.hours.weekdays}</span></li>
+            <li className="flex justify-between"><span>Montag bis Freitag</span> <span>{config.hours.weekdays}</span></li>
             <li className="flex justify-between"><span>Samstag</span> <span>{config.hours.saturday}</span></li>
             <li className="flex justify-between text-black/30"><span>Sonntag</span> <span>{config.hours.sunday}</span></li>
           </ul>
