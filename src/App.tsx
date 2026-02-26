@@ -981,9 +981,9 @@ export default function App() {
         <Services />
         <Pricing />
         <Gallery />
-        <Testimonials />
         <SchulungenSection />
         <HygieneSection />
+        <Testimonials />
         <AboutSection />
         <ContactSection />
       </main>
