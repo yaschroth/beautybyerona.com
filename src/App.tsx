@@ -983,7 +983,7 @@ export default function App() {
         <Gallery />
         <Testimonials />
         <AboutSection />
-        {/* <SchulungenSection /> */}
+        <SchulungenSection />
         <HygieneSection />
         <ContactSection />
       </main>
