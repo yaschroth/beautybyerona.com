@@ -7,9 +7,9 @@ export const config = {
   // ============================================
   business: {
     name: "Beauty by Erona",
-    tagline: "Deine Schönheit. Unsere Leidenschaft.",
-    motto: "Natürliche Schönheit, perfekt betont.",
-    description: "Dein professionelles Beauty-Studio in Heilbronn. Wimpernverlängerung, Microblading, Lash- & Browlifting und Permanent Make-up - von zertifizierten Beauty-Expertinnen.",
+    tagline: "MASTER OF EYEBROWS",
+    motto: "Microblading · Permanent Make-up · Schulungen · Wimpernverlängerung",
+    description: "Dein Kosmetikstudio in Heilbronn. Microblading, Permanent Make-up, Wimpernverlängerung mit UV System, Brow & Lash Lifting - und professionelle Schulungen.",
     foundingYear: 2019,
     yearsExperience: 6,
     yearsInCenter: 5,
@@ -41,7 +41,7 @@ export const config = {
   social: {
     instagram: "https://www.instagram.com/beautybyerona/",
     facebook: "https://www.facebook.com/p/Beauty-by-Erona-100063568809376/",
-    tiktok: "",
+    tiktok: "https://www.tiktok.com/@lashesby_e.b",
   },
 
   // ============================================
@@ -66,8 +66,8 @@ export const config = {
   // GOOGLE REVIEWS
   // ============================================
   reviews: {
-    rating: 5.0,
-    count: "50+",
+    rating: 4.9,
+    count: "186",
     googleReviewLink: "https://www.google.com/maps/place/Beauty+by+Erona",
   },
 
@@ -79,15 +79,15 @@ export const config = {
     fullName: "Erona & Merita",
     image: "/beauty/face.jpg",
     bio: [
-      "Willkommen bei Beauty by Erona! Mit jahrelanger Erfahrung und viel Feingefühl sorgen wir für Ergebnisse, die überzeugen - individuell, hochwertig und modern.",
-      "Unser Team besteht aus zertifizierten Beauty-Expertinnen, die mit höchsten Hygiene- und Qualitätsstandards arbeiten.",
-      "Im Mittelpunkt steht eine präzise, typgerechte Umsetzung mit Fokus auf Qualität und Zufriedenheit. Wir begleiten dich auf deinem Weg zu natürlicher Schönheit.",
+      "Willkommen bei Beauty by Erona - MASTER OF EYEBROWS! Wir sind spezialisiert auf Microblading, Permanent Make-up, Wimpernverlängerung mit UV System und Brow & Lash Lifting.",
+      "Unser Studio ist sauber, hell und wunderschön dekoriert. Wir arbeiten mit höchsten Hygiene- und Qualitätsstandards - deshalb kommen Kundinnen sogar über 150 km zu uns.",
+      "Neben Behandlungen bieten wir auch professionelle Schulungen an. Folge uns auf Instagram @beautybyerona und TikTok @lashesby_e.b für unsere neuesten Arbeiten!",
     ],
     certifications: [
-      { label: "Zertifizierte Lash Artistin", icon: "award" },
+      { label: "Master of Eyebrows", icon: "award" },
       { label: "Microblading Expertin", icon: "star" },
-      { label: "Hygiene Garantie", icon: "shield" },
-      { label: "Schulungen & Workshops", icon: "check" },
+      { label: "Professionelle Schulungen", icon: "check" },
+      { label: "4.9 ★ bei 186 Bewertungen", icon: "shield" },
     ],
   },
 
@@ -96,32 +96,32 @@ export const config = {
   // ============================================
   testimonials: [
     {
-      name: "Laura M.",
+      name: "Google Rezension",
       rating: 5,
-      text: "Die besten Wimpern die ich je hatte! Erona hat ein unglaubliches Gespür für den perfekten Look. Komme immer wieder gerne!",
-      service: "Wimpernverlängerung",
-      date: "vor 1 Woche",
-    },
-    {
-      name: "Sarah K.",
-      rating: 5,
-      text: "Mein Microblading sieht so natürlich aus! Ich wache jeden Morgen mit perfekten Augenbrauen auf. Absolute Empfehlung!",
+      text: "Ein unfassbar schönes Endergebnis! Die Arbeit an meinen Augenbrauen war präzise, perfekt und sauber. Das Team ist sehr freundlich und entgegenkommend.",
       service: "Microblading",
-      date: "vor 2 Wochen",
+      date: "Google Bewertung",
     },
     {
-      name: "Anna T.",
+      name: "Google Rezension",
       rating: 5,
-      text: "Das Browlifting hat meine Augenbrauen komplett verwandelt. Super professionell und das Ergebnis ist einfach wow!",
-      service: "Brow Lifting",
-      date: "vor 3 Wochen",
+      text: "Das Studio ist sehr sauber, hell, wunderschön dekoriert und riecht frisch. Es gibt auch Parkplätze. Die Schulungen sind strukturiert und informativ - absolute Empfehlung!",
+      service: "Schulung",
+      date: "Google Bewertung",
     },
     {
-      name: "Jessica H.",
+      name: "Google Rezension",
       rating: 5,
-      text: "Ich liebe mein neues Permanent Make-up! Erona und Merita sind echte Künstlerinnen. Die Beratung war super ausführlich.",
+      text: "Ich fahre über 150 km hierher und es lohnt sich jedes Mal! Die Qualität der Behandlungen ist hervorragend und das Team ist super professionell.",
+      service: "Wimpernverlängerung",
+      date: "Google Bewertung",
+    },
+    {
+      name: "Google Rezension",
+      rating: 5,
+      text: "Exzellenter Kundenservice und eine unterstützende Atmosphäre. Die Ergebnisse meiner Beauty-Behandlung sind von höchster Qualität. Komme immer wieder!",
       service: "Permanent Make-up",
-      date: "vor 1 Monat",
+      date: "Google Bewertung",
     },
   ],
 
@@ -130,46 +130,46 @@ export const config = {
   // ============================================
   services: [
     {
-      title: "Wimpernverlängerung",
-      description: "Traumhaft volle Wimpern für einen verführerischen Blick. Classic, Volume oder Mega Volume - ganz nach deinem Wunsch.",
-      price: "ab 89 €",
-      image: "/beauty/wimpern.png",
-      benefits: ["Langanhaltend", "Natürlich"],
-    },
-    {
       title: "Microblading",
-      description: "Perfekte Augenbrauen mit der Härchentechnik. Natürlich aussehende, volle Brauen die bis zu 2 Jahre halten.",
-      price: "ab 249 €",
+      description: "MASTER OF EYEBROWS - Perfekte Augenbrauen mit der Härchentechnik. Präzise, perfekte und saubere Arbeit für ein unfassbar schönes Endergebnis.",
+      price: "auf Anfrage",
       image: "/beauty/eyebrow-after.png",
-      benefits: ["2 Jahre Halt", "Natürlich"],
+      benefits: ["1-2 Jahre Halt", "Natürlich"],
     },
     {
-      title: "Lash Lifting",
-      description: "Deine natürlichen Wimpern - nur besser! Dauerwelle und Färbung für einen wachen, offenen Blick.",
-      price: "ab 49 €",
-      image: "/beauty/wimpern (2).webp",
-      benefits: ["6-8 Wochen", "Natürlich"],
-    },
-    {
-      title: "Brow Lifting",
-      description: "Perfekt geformte, volle Augenbrauen ohne tägliches Styling. Lamination und Färbung in einem.",
-      price: "ab 45 €",
-      image: "/beauty/face2.jpg",
-      benefits: ["6-8 Wochen", "Pflegeleicht"],
+      title: "Wimpernverlängerung",
+      description: "Wimpernverlängerung mit UV System - traumhaft volle Wimpern für einen verführerischen Blick. Classic, Volume oder Mega Volume.",
+      price: "auf Anfrage",
+      image: "/beauty/wimpern.png",
+      benefits: ["UV System", "Langanhaltend"],
     },
     {
       title: "Permanent Make-up",
       description: "Perfekte Lippen, Augenbrauen oder Lidstrich - jeden Tag. Hochwertige Pigmentierung für langanhaltende Schönheit.",
-      price: "ab 199 €",
+      price: "auf Anfrage",
       image: "/beauty/face.jpg",
       benefits: ["Langanhaltend", "Wasserfest"],
     },
     {
-      title: "Wimpern Auffüllung",
-      description: "Regelmäßige Auffüllung für deine Wimpernverlängerung. Hält deine Wimpern perfekt in Form.",
-      price: "ab 49 €",
+      title: "Brow Lifting",
+      description: "Perfekt geformte, volle Augenbrauen ohne tägliches Styling. Lamination und Färbung in einem.",
+      price: "auf Anfrage",
+      image: "/beauty/face2.jpg",
+      benefits: ["6-8 Wochen", "Pflegeleicht"],
+    },
+    {
+      title: "Lash Lifting",
+      description: "Deine natürlichen Wimpern - nur besser! Dauerwelle und Färbung für einen wachen, offenen Blick.",
+      price: "auf Anfrage",
+      image: "/beauty/wimpern (2).webp",
+      benefits: ["6-8 Wochen", "Natürlich"],
+    },
+    {
+      title: "Schulungen",
+      description: "Professionelle Beauty-Schulungen in Microblading, Wimpernverlängerung und mehr. Strukturiert, informativ und praxisnah.",
+      price: "auf Anfrage",
       image: "/beauty/Generated Image January 05, 2026 - 2_18PM (2).png",
-      benefits: ["Pflege", "Formerhalt"],
+      benefits: ["Zertifikat", "Praxisnah"],
     },
   ],
 
@@ -177,9 +177,9 @@ export const config = {
   // SCHULUNGEN (Training Section)
   // ============================================
   schulungen: {
-    headline: "Starte dein eigenes Beauty-Business!",
-    description: "Erfülle dir den Traum vom eigenen Beauty-Business! In unseren professionellen Schulungen lernst du alles, was du brauchst, um als Beauty-Profi erfolgreich durchzustarten – praxisnah, individuell und mit Zertifikat.",
-    subtext: "Ob Anfängerin oder Fortgeschrittene – wir begleiten dich auf deinem Weg in die Selbstständigkeit und zeigen dir, wie du mit deinem Talent Kunden begeisterst.",
+    headline: "Professionelle Beauty-Schulungen",
+    description: "Unsere Schulungen sind strukturiert und informativ - das bestätigen unsere Teilnehmerinnen! Lerne von den Master of Eyebrows und starte dein eigenes Beauty-Business.",
+    subtext: "Ob Anfängerin oder Fortgeschrittene – wir begleiten dich auf deinem Weg in die Selbstständigkeit. Praxisnah, individuell und mit Zertifikat.",
     courses: [
       {
         title: "Wimpernverlängerung",
@@ -221,36 +221,33 @@ export const config = {
   // ============================================
   pricing: [
     {
-      category: "Wimpernverlängerung",
+      category: "Microblading & Permanent Make-up",
       items: [
-        { name: "Classic Wimpern (90 Min)", price: "89 €" },
-        { name: "Volume Wimpern 2D-3D (120 Min)", price: "109 €" },
-        { name: "Mega Volume 4D-6D (150 Min)", price: "129 €" },
-        { name: "Auffüllung Classic (60 Min)", price: "49 €" },
-        { name: "Auffüllung Volume (75 Min)", price: "59 €" },
-        { name: "Wimpern Entfernung", price: "15 €" },
+        { name: "Microblading Augenbrauen", price: "auf Anfrage" },
+        { name: "Powder Brows / Ombré", price: "auf Anfrage" },
+        { name: "Permanent Lidstrich", price: "auf Anfrage" },
+        { name: "Permanent Lippen", price: "auf Anfrage" },
+        { name: "Nacharbeit", price: "auf Anfrage" },
       ],
     },
     {
-      category: "Microblading & PMU",
+      category: "Wimpernverlängerung (UV System)",
       items: [
-        { name: "Microblading Augenbrauen", price: "249 €" },
-        { name: "Powder Brows / Ombré", price: "279 €" },
-        { name: "Kombi Brows", price: "299 €" },
-        { name: "Permanent Lidstrich", price: "199 €" },
-        { name: "Permanent Lippen", price: "349 €" },
-        { name: "Nacharbeit (4-6 Wochen)", price: "49 €" },
+        { name: "Classic Wimpern", price: "auf Anfrage" },
+        { name: "Volume Wimpern 2D-3D", price: "auf Anfrage" },
+        { name: "Mega Volume 4D-6D", price: "auf Anfrage" },
+        { name: "Auffüllung", price: "auf Anfrage" },
+        { name: "Wimpern Entfernung", price: "auf Anfrage" },
       ],
     },
     {
-      category: "Lash & Brow Lifting",
+      category: "Brow & Lash Lifting",
       items: [
-        { name: "Lash Lifting inkl. Färbung", price: "49 €" },
-        { name: "Brow Lifting inkl. Färbung", price: "45 €" },
-        { name: "Lash & Brow Lifting Kombi", price: "79 €" },
-        { name: "Wimpern Färbung", price: "15 €" },
-        { name: "Augenbrauen Färbung", price: "12 €" },
-        { name: "Augenbrauen Zupfen", price: "10 €" },
+        { name: "Lash Lifting inkl. Färbung", price: "auf Anfrage" },
+        { name: "Brow Lifting inkl. Färbung", price: "auf Anfrage" },
+        { name: "Lash & Brow Lifting Kombi", price: "auf Anfrage" },
+        { name: "Wimpern Färbung", price: "auf Anfrage" },
+        { name: "Augenbrauen Färbung", price: "auf Anfrage" },
       ],
     },
   ],
@@ -289,28 +286,28 @@ export const config = {
   // HYGIENE SECTION
   // ============================================
   hygiene: {
-    headline: "Qualität, Hygiene & Expertise",
-    description: "Bei Beauty by Erona setzen wir auf höchste Hygienestandards und professionelle Qualität. Unser Team ist zertifiziert und arbeitet mit modernsten Materialien und Techniken.",
+    headline: "Sauber, hell & wunderschön",
+    description: "Unser Studio ist sehr sauber, hell, wunderschön dekoriert und riecht frisch. Wir bieten exzellenten Kundenservice in einer unterstützenden Atmosphäre - deshalb kommen Kundinnen sogar über 150 km zu uns.",
     features: [
       {
         icon: "shield",
-        title: "Zertifizierte Expertinnen",
-        description: "Erona und Merita sind zertifizierte Beauty-Expertinnen mit jahrelanger Erfahrung.",
+        title: "4.9 Sterne Bewertung",
+        description: "186 Google-Bewertungen bestätigen unsere Qualität und Professionalität.",
       },
       {
         icon: "star",
-        title: "Premium Materialien",
-        description: "Wir verwenden nur hochwertige, hautfreundliche Produkte und Pigmente.",
+        title: "Master of Eyebrows",
+        description: "Präzise, perfekte und saubere Arbeit für unfassbar schöne Endergebnisse.",
       },
       {
         icon: "award",
-        title: "800+ Kundinnen",
-        description: "Zufriedene Kundinnen vertrauen auf unsere Expertise und Präzision.",
+        title: "Kundinnen aus ganz Deutschland",
+        description: "Manche Kundinnen fahren über 150 km zu uns - es lohnt sich jedes Mal!",
       },
       {
         icon: "check",
-        title: "Sterilisierte Werkzeuge",
-        description: "Alle Instrumente werden nach jeder Kundin gründlich sterilisiert.",
+        title: "Parkplätze vorhanden",
+        description: "Bequeme Anfahrt mit eigenem Parkplatz direkt am Studio.",
       },
     ],
   },
