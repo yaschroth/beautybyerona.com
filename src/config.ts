@@ -165,11 +165,11 @@ export const config = {
       benefits: ["6-8 Wochen", "Natürlich"],
     },
     {
-      title: "Schulungen",
-      description: "Professionelle Beauty-Schulungen in Microblading, Wimpernverlängerung und mehr. Strukturiert, informativ und praxisnah.",
+      title: "Wimpern Auffüllung",
+      description: "Regelmäßige Auffüllung für deine Wimpernverlängerung. Hält deine Wimpern perfekt in Form.",
       price: "auf Anfrage",
-      image: "/beauty/Generated Image January 05, 2026 - 2_18PM (2).png",
-      benefits: ["Zertifikat", "Praxisnah"],
+      image: "/beauty/wimpern3.jpg",
+      benefits: ["Pflege", "Formerhalt"],
     },
   ],
 
